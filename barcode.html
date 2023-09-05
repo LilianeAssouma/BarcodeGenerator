@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode</title>
+    <link rel="stylesheet" href="main.css">
+    
+    <script src="script.js"></script>
+</head>
+<body>
+   <div class= "container">
+<input type="text" name="word" class="userInput" placeholder= "Enter text">
+<div class= linecolor>
+<input type="text" class="linecolorInput" placeholder="#000000" value=" #000000"> 
+</div>
+<div class="backgroundColor">
+<input type="text" class="backgroundColorInput" placeholder="#FFFFFF" value="#FFFFFF">
+</div>
+    <button class= "generateBtn">Generate</button> 
+</div>
+
+ <div class="barcode-box">
+<svg id= barcode ></svg>
+<button class="downloadBtn">Download</button>
+<button class="shareBtn">Share</button>
+ </div> 
+   <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+</body>
+</html>
+
+
+ 
+ 
+  
